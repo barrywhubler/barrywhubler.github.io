@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Home</title>
+  </head>
+  <body>
+    <h1>Hi Class</hi>
+    <h6>This is the lowest emphasis header</h6>
+    <img style = "height:150px" scr = "https://cleannest.com/wp-content/uploads/sites/47/2018/02/clean-1.png"></img>
+  </body>
+</html>
+<body>
+  <h6>Yeah,
+    <h5>this
+      <h4>is
+        <h3>a
+          <h2sick>
+            <h1>
+              website!
+            </h1>
+            
+          </h2>
+        </h3>
+      </h4>
+    </h5>
+  </h6>
+</body>
