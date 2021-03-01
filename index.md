@@ -9,9 +9,9 @@
 	  
 	  <meta name="description" content="Barry">
     <meta name="author" content="Barry">
-	  <link rel="icon" href="icons/favicon.jpg">
+	  <link rel="icon" href="barrywhubler/icons/favicon.jpg">
 	  
-	  <link rel="stylesheet" href="blank.css">
+	  <link rel="stylesheet" href="barrywhubler/blank.css">
 	   
     <title>BARRY</title>
 
@@ -36,7 +36,7 @@
       <ul class="navbar-nav mr-auto">
         
 		 <li class="nav-item active">
-          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="barrywhubler/home.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="barrywhubler/pages/pageichi.html">Games</a>
