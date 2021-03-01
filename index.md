@@ -25,7 +25,7 @@
 	  
   </head>
 	<div class="container-fluid">
-  <body>	  <!--<img id="BGG" class="position-fixed" src="BackGrad.jpg" width = "100%" height = "100%" margin = "0" padding = "0">-->
+  <body>	  <!--<img id="BGG" class="position-fixed" src="barrywhubler/BackGrad.jpg" width = "100%" height = "100%" margin = "0" padding = "0">-->
      <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand">BARRY</a>
