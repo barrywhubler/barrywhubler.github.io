@@ -39,22 +39,22 @@
           <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/pageichi.html">Games</a>
+          <a class="nav-link" href="barrywhubler/pages/pageichi.html">Games</a>
         </li>
 		  <li class="nav-item">
-          <a class="nav-link" href="pages/pageni.html">VR</a>
+          <a class="nav-link" href="barrywhubler/pages/pageni.html">VR</a>
         </li>
 		  <li class="nav-item">
-          <a class="nav-link" href="pages/pagesan.html">Animation</a>
+          <a class="nav-link" href="barrywhubler/pages/pagesan.html">Animation</a>
         </li>
 		  <li class="nav-item">
-          <a class="nav-link" href="pages/pageyon.html">Mobil Comic</a>
+          <a class="nav-link" href="barrywhubler/pages/pageyon.html">Mobil Comic</a>
         </li>
 		  <li class="nav-item">
-          <a class="nav-link" href="pages/pagego.html">Models</a>
+          <a class="nav-link" href="barrywhubler/pages/pagego.html">Models</a>
         </li>
 		  <li class="nav-item">
-          <a class="nav-link" href="pages/pagerouku.html">Character Designs</a>
+          <a class="nav-link" href="barrywhubler/pages/pagerouku.html">Character Designs</a>
         </li>
         <!--<li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -172,69 +172,69 @@
     <!-- Three columns of text below the carousel -->
     <div class="row text-center spac">
       <div class="col-lg-4">
-        <a href="pages/pv2.html"><img class="rounded-circle boxy" src="icons/icov1.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pv2.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icov1.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Entanglement</h2></a>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="pages/pc2.html"><img class="rounded-circle boxy" src="icons/icob.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pc2.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icob.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Medusa</h2></a>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="pages/pg3.html"><img class="rounded-circle boxy" src="icons/icog3.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pg3.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icog3.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Field of War</h2></a>
         
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 	      <div class="row text-center spac">
       <div class="col-lg-4">
-        <a href="pages/pg4.html"><img class="rounded-circle boxy" src="icons/ico2.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pg4.html"><img class="rounded-circle boxy" src="barrywhubler/icons/ico2.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Driving Simulator</h2></a>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="pages/pagesan.html"><img class="rounded-circle boxy" src="icons/ico1.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pagesan.html"><img class="rounded-circle boxy" src="barrywhubler/icons/ico1.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Animation</h2></a>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="pages/pv1.html"><img class="rounded-circle boxy" src="icons/icov2.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pv1.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icov2.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Blacksmithery</h2></a>
         
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 	      <div class="row text-center spac">
       <div class="col-lg-4">
-        <a href="pages/pv3.html"><img class="rounded-circle boxy" src="icons/icov3.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pv3.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icov3.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">The Jewel</h2></a>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="pages/pg1.html"><img class="rounded-circle boxy" src="icons/icog1.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pg1.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icog1.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Zombie Charge</h2></a>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="pages/pageyon.html"><img class="rounded-circle boxy" src="icons/icmc.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pageyon.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icmc.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Mobile Comic</h2></a>
         
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 	      <div class="row text-center spac">
       <div class="col-lg-4">
-        <a href="pages/pc1.html"><img class="rounded-circle boxy" src="icons/icoard.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pc1.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icoard.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">ARD</h2></a>
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="pages/pagego.html"><img class="rounded-circle boxy" src="icons/ico3.png" alt="icon" width="200px" height="auto">
+        <a href="pages/pagego.html"><img class="rounded-circle boxy" src="barrywhubler/icons/ico3.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Models</h2></a>
         
       </div><!-- /.col-lg-4 -->
 			  
       <div class="col-lg-4">
-        <a href="pages/egg.html"><img class="rounded-circle"  src="icons/egg.png" alt="icon" width="50px" height="auto">
+        <a href="pages/egg.html"><img class="rounded-circle"  src="barrywhubler/icons/egg.png" alt="icon" width="50px" height="auto">
         <h2 class="midsiderer"></h2></a>
         
       </div><!-- /.col-lg-4 -->
