@@ -199,7 +199,7 @@
         
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <a href="barrywhubler/pages/pv1.html"><img class="rounded-circle boxy" src="barrywhubler/icons/icov2.png" alt="icon" width="200px" height="auto">
+        <a href="barrywhubler/pages/pv1.html"><img class="rounded-circle boxy" src="barrywhubler/icons/BSIco.png" alt="icon" width="200px" height="auto">
         <h2 class="midsiderer">Blacksmithery</h2></a>
         
       </div><!-- /.col-lg-4 -->
