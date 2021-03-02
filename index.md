@@ -124,7 +124,7 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 	<div><h1> </h1><h1></h1>
-	<h1 class="topside">Barry Hubler</h1><div class="row container-fluid justify-content-sm-center"><div class="well col-lg-4"><img class="wreckt justify-content-sm-center"  src="barrwhubler/Barry.png" alt="Barry"></div><div  class="well col-lg-4  align-items-center"><h1 class="midside ooooh">Student of <a href="https://www.boisestate.edu/gimm/"  class="ooooh">GIMM</a></h1><h1 class="midside align-middle">Boise State University</h1><h1 class="midside align-middle"> barryhubler@u.boisestate.edu</h1></div></div >
+	<h1 class="topside">Barry Hubler</h1><div class="row container-fluid justify-content-sm-center"><div class="well col-lg-4"><img class="wreckt justify-content-sm-center"  src="barrywhubler/Barry.png" alt="Barry"></div><div  class="well col-lg-4  align-items-center"><h1 class="midside ooooh">Student of <a href="https://www.boisestate.edu/gimm/"  class="ooooh">GIMM</a></h1><h1 class="midside align-middle">Boise State University</h1><h1 class="midside align-middle"> barryhubler@u.boisestate.edu</h1></div></div >
 	</div>
 	
 	<div class="row container-fluid justify-content-sm-center">
@@ -294,7 +294,7 @@
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-right"><a href="home.html">Back to top</a></p>
+    <p class="float-right"><a href="barrywhubler/home.html">Back to top</a></p>
     <p>&copy; 2020 BARRY &middot; barryhubler@u.boisestate.edu<!--<a href="#">Privacy</a> &middot; <a href="#">Terms</a>--></p>
   </footer>
 </main>
