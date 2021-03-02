@@ -234,7 +234,7 @@
       </div><!-- /.col-lg-4 -->
 			  
       <div class="col-lg-4">
-        <a href="barrywhubler/pages/egg.html"><img class="rounded-circle"  src="barrywhubler/icons/egg.png" alt="icon" width="50px" height="auto">
+        <a href="barrywhubler/pages/egg.html"><img class="rounded-circle"  src="barrywhubler/icons/Egg.png" alt="icon" width="50px" height="auto">
         <h2 class="midsiderer"></h2></a>
         
       </div><!-- /.col-lg-4 -->
