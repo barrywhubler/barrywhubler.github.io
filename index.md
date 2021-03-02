@@ -124,7 +124,7 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 	<div><h1> </h1><h1></h1>
-	<h1 class="topside">Barry Hubler</h1><div class="row container-fluid justify-content-sm-center"><div class="well col-lg-4"><img class="wreckt justify-content-sm-center"  src="Barry.png" alt="Barry"></div><div  class="well col-lg-4  align-items-center"><h1 class="midside ooooh">Student of <a href="https://www.boisestate.edu/gimm/"  class="ooooh">GIMM</a></h1><h1 class="midside align-middle">Boise State University</h1><h1 class="midside align-middle"> barryhubler@u.boisestate.edu</h1></div></div >
+	<h1 class="topside">Barry Hubler</h1><div class="row container-fluid justify-content-sm-center"><div class="well col-lg-4"><img class="wreckt justify-content-sm-center"  src="barrwhubler/Barry.png" alt="Barry"></div><div  class="well col-lg-4  align-items-center"><h1 class="midside ooooh">Student of <a href="https://www.boisestate.edu/gimm/"  class="ooooh">GIMM</a></h1><h1 class="midside align-middle">Boise State University</h1><h1 class="midside align-middle"> barryhubler@u.boisestate.edu</h1></div></div >
 	</div>
 	
 	<div class="row container-fluid justify-content-sm-center">
@@ -234,7 +234,7 @@
       </div><!-- /.col-lg-4 -->
 			  
       <div class="col-lg-4">
-        <a href="pages/egg.html"><img class="rounded-circle"  src="barrywhubler/icons/egg.png" alt="icon" width="50px" height="auto">
+        <a href="pages/egg.html"><img class="rounded-circle"  src="barrywhubler/icons/gg.png" alt="icon" width="50px" height="auto">
         <h2 class="midsiderer"></h2></a>
         
       </div><!-- /.col-lg-4 -->
