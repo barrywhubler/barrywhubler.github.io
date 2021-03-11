@@ -60,7 +60,7 @@
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>-->
                 <li class="nav-item">
-          <a class="nav-link" href="pageResume.html">Resume</a>
+          <a class="nav-link" href="barrywhubler/pages/pageResume.html">Resume</a>
         </li>
       </ul>
       <!--<form class="form-inline mt-2 mt-md-0">
@@ -165,6 +165,10 @@
 		
     <div class="span1">
       <a href="barrywhubler/pages/pagerouku.html"><button class="btn btn-block btn-dark spac"> Character Designs</button></a>
+    </div>
+
+        <div class="span1">
+      <a href="barrywhubler/pages/pageResume.html"><button class="btn btn-block btn-dark spac"> Resume</button></a>
     </div>
 		
   </div>
