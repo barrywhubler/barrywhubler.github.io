@@ -3,7 +3,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #252525;
-	background-image: linear-gradient(rgb(182, 182, 182), rgb(126, 126, 126));
+	background-image: radial-gradient(rgb(41, 41, 41), rgb(0, 0, 0));
 	  background-repeat: no-repeat;
   background-attachment: fixed;
 	background-size: cover;
@@ -25,7 +25,7 @@ body {
 	font-size: 300%;
 	margin-top: 10%;
 	margin-bottom: 10%;
-	text-shadow: 1px 1px #000000;
+	text-shadow: 1px 1px #7e7e7e;
 	
 	
 }
@@ -39,12 +39,12 @@ body {
 .midsider{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 200%;
-	text-shadow: 1px 1px #000000;
+	text-shadow: 1px 1px #7c7c7c;
 }
 .midsiderer{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 200%;
-	text-shadow: 1px 1px #000000;
+	text-shadow: 1px 1px #7e7e7e;
 }
 
 a:link {
@@ -58,7 +58,7 @@ a:visited {
   
 }
 .ooooh{
-	text-shadow: 1px 1px 5px #000000;
+	text-shadow: 1px 1px 5px #7c7c7c;
 }
 .boxy
 {
