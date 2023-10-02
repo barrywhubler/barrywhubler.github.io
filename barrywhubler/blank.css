@@ -73,15 +73,15 @@ a:visited {
 	transition: .5s;
 }
 .boxy:hover{
-	background: #fff;
-	box-shadow: 0 0 10px  rgba(000000,1),
-		0 0 20px  rgba(000000,0.4),
-		0 0 30px  rgba(000000,0.4),
-		0 0 0 75px  rgba(000000,0.1),
-		0 0 0 60px  rgba(000000,0.1),
-		0 0 0 45px  rgba(000000,0.1),
-		0 0 0 30px  rgba(000000,0.1),
-		0 0 0 15px  rgba(000000,0.1);
+	background: rgb(0, 0, 0);
+	box-shadow: 0 0 10px  rgba(00,00,00,1),
+		0 0 20px  rgba(00,00,00,0.4),
+		0 0 30px  rgba(00,00,00,0.4),
+		0 0 0 75px  rgba(00,00,00,0.1),
+		0 0 0 60px  rgba(00,00,00,0.1),
+		0 0 0 45px  rgba(00,00,00,0.1),
+		0 0 0 30px  rgba(00,00,00,0.1),
+		0 0 0 15px  rgba(00,00,00,0.1);
 }
 .fa {
 	padding: 20px;
