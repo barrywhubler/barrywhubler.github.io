@@ -3,7 +3,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #252525;
-	background-image: radial-gradient(rgb(0, 255, 149), rgb(25, 187, 152));
+	background-image: linear-gradient(to bottom right rgb(13, 0, 83), rgb(1, 0, 19), blue);
 	  background-repeat: no-repeat;
   background-attachment: fixed;
 	background-size: cover;
