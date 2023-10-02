@@ -2,8 +2,8 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
-	background-image: linear-gradient(rgba(70,80,120,1), rgba(0,255,160,1));
+  color: #252525;
+	background-image: linear-gradient(rgb(182, 182, 182), rgb(126, 126, 126));
 	  background-repeat: no-repeat;
   background-attachment: fixed;
 	background-size: cover;
