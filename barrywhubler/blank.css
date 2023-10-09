@@ -3,7 +3,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #252525;
-	background-image: radial-gradient( rgb(231, 227, 255), rgb(196, 193, 255));
+	background-image: linear-gradient(right rgb(0, 0, 60), rgb(0, 0, 155));
 	  background-repeat: no-repeat;
   background-attachment: fixed;
 	background-size: cover;
@@ -74,14 +74,14 @@ a:visited {
 }
 .boxy:hover{
 	background: rgb(0, 0, 0);
-	box-shadow: 0 0 10px  rgba(00,00,200,1),
-		0 0 20px  rgba(00,00,200,0.4),
-		0 0 30px  rgba(00,00,200,0.4),
-		0 0 0 75px  rgba(00,00,200,0.1),
-		0 0 0 60px  rgba(00,00,200,0.1),
-		0 0 0 45px  rgba(00,00,200,0.1),
-		0 0 0 30px  rgba(00,00,200,0.1),
-		0 0 0 15px  rgba(00,00,200,0.1);
+	box-shadow: 0 0 10px  rgba(255,225,255,1),
+		0 0 20px  rgba(255,225,255,0.4),
+		0 0 30px  rgba(255,225,255,0.4),
+		0 0 0 75px  rgba(255,225,255,0.1),
+		0 0 0 60px  rgba(255,225,255,0.1),
+		0 0 0 45px  rgba(255,225,255,0.1),
+		0 0 0 30px  rgba(255,225,255,0.1),
+		0 0 0 15px  rgba(255,225,255,0.1);
 }
 .fa {
 	padding: 20px;
