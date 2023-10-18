@@ -18,7 +18,7 @@ body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 600%;
 	text-align: center;
-	text-shadow: 0px 0px 5px #ff0000;
+	text-shadow: 0px 0px 5px #ffb9b9;
 }
 .midside{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -39,21 +39,21 @@ body {
 .midsider{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 200%;
-	text-shadow: 1px 1px #7c7c7c;
+	text-shadow: 1px 1px #ffffff;
 }
 .midsiderer{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 200%;
-	text-shadow: 1px 1px #ffffff;
+	text-shadow: 1px 1px #ebebeb;
 }
 
 a:link {
-  color: rgba(5,4,112,1.00);
+  color: rgb(255, 135, 37);
   
   
 }
 a:visited {
-  color: rgba(68,2,2,1.00);
+  color: rgb(187, 0, 0);
   
   
 }
@@ -67,9 +67,9 @@ a:visited {
 	text-align: center;
 	line-height: 30px;
 	margin: 0 50px;
-	background:rgba(255,255,255,0.2);
+	background:rgba(88, 255, 111, 0.2);
 	border-radius: 10%;
-	color: #000635;
+	color: #07df00;
 	transition: .5s;
 }
 .boxy:hover{
@@ -90,7 +90,7 @@ a:visited {
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
-	background-color: rgba(255,255,255, 0.0);
+	background-color: rgba(255, 170, 170, 0);
   }
 
   .fa:hover {
