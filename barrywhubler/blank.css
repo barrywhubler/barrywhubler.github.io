@@ -18,8 +18,7 @@ body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 600%;
 	text-align: center;
-  text-shadow: 1px 1px #ffffff;
-  text-shadow: -1px -1px #ffffff;
+	text-shadow: 0px 0px 2px #ffb9b9;
 }
 .midside{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
