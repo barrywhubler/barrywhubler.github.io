@@ -62,8 +62,7 @@ a:visited {
   
 }
 a:hover{
-  text-emphasis-color: lime;
-  color: lime;
+  color: lime !important;
   
 }
 .ooooh{
