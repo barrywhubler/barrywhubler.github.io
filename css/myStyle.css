@@ -1,0 +1,83 @@
+.myRows{
+    border: 3px solid green;
+}
+.myCols{
+    border: 3px solid red;
+}
+.myContainer{
+    background-color: aqua;
+    border: 3px solid blue
+}
+#topHeader{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+#topHeader a{
+    color: orange;
+    font-weight: 600;
+    font-size: 0.89rem;
+}
+#topHeader h1{
+    color: rgb(255, 140, 0);
+    font-weight: 600;
+    text-shadow: 0px 0px 2px black;
+}
+#nextHeader{
+    color: rgb(255, 140, 0);
+    font-weight: 600;
+    text-shadow: 0px 0px 2px black;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.descCol{
+    color: rgb(255, 140, 0);
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.dropdown a:hover {
+
+    color: rgb(0, 2, 90) !important;
+    background-color:rgba(0, 195, 255, 0.75);
+    border: 1px solid orange;
+}
+.my-footer{
+    background-color: rgba(0, 0, 0, 0.55);
+    border-top: 1px solid rgba(0, 0, 0, 0.65);
+
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.my-footer p{
+    color: orange;
+}
+.my-footer a{
+    color: orange;
+    font-weight: 600;
+}
+.my-footer h3{
+    color: orange;
+}
+
+.bg-grad{
+    background: linear-gradient(to right, rgb(0, 0, 50), rgb(0, 0, 185));
+}
+.navbar-nav a.active {
+    color: rgb(0, 0, 0) !important;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px white;
+      
+
+  }
+  .navbar-nav a{
+    color: orange;
+       
+  }
+  .ytvideo{
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
