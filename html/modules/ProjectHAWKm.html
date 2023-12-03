@@ -12,6 +12,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="\css\myStyle.css">
+    <link rel="stylesheet" href="\css\myVidStyle.css">
 
 
 </head>
@@ -21,28 +22,45 @@
 
     <div id="nextHeader" class="container-fluid">
         <div class="row">
-            <div class="col-6"><h2>Project Hawk </h2></div><div class="col-6"></div>
+            <div class="col-6">
+                <h2>Project Hawk</h2>
+            </div>
+            <div class="col-6"></div>
         </div>
     </div>
     <div class="container" style="text-align: justify;">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <!--<div class="row myRows">
-            <div class="col-md-8 myCols">.col-md-8</div>
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-        </div>-->
 
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <!--<div class="row myRows">
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-        </div>-->
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-6 embed-responsive embed-responsive-16by9">
 
-        <!-- Columns are always 50% wide, on mobile and desktop -->
-        <div class="row">
-            <div class="col-6 ">Image, and media </div>
-            <div class="col-6 descCol"><h4>Description</h4></div>
+                <div class="video-container">
+                    <div class="ratio ratio-16x9">
+
+                        <video height="auto"  autoplay="true" muted="true" loop="true"controls>
+                            <source src="/html/video/hawkVid.mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
+            <div class="col-6 descCol">
+                <h4>Description</h4>
+            </div>
         </div>
+
+
+
+
+    <div class="embed-responsive col-12" style="padding-top: 10px;">
+                   
+        <iframe name= CRytvA id="ytv" class="ytvideo" col-12" src="https://www.youtube.com/embed/2PqKjy8d__k?si=EHNwb_0vMXicTk4i"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

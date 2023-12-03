@@ -45,10 +45,12 @@
 }
 .container .popup-image img{
 
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(100, 149, 237, 0.9);
   border: 5px solid orange;
   border-radius: 20px;
 
 }
+
+
 
 

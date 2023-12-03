@@ -21,28 +21,49 @@
 
     <div id="nextHeader" class="container-fluid">
         <div class="row">
-            <div class="col-6"><h2> Loopus</h2></div><div class="col-6"><h2>Mobile Comic</h2></div>
+            <div class="col-6">
+                <h2>Loopus</h2>
+            </div>
+            <div class="col-6">
+                <h2></h2>
+            </div>
         </div>
     </div>
     <div class="container" style="text-align: justify;">
-        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-        <!--<div class="row myRows">
-            <div class="col-md-8 myCols">.col-md-8</div>
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-        </div>-->
 
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <!--<div class="row myRows">
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-            <div class="col-6 col-md-4 myCols">.col-6 .col-md-4</div>
-        </div>-->
-
-        <!-- Columns are always 50% wide, on mobile and desktop -->
         <div class="row">
-            <div class="col-6 ">Image, and media </div>
-            <div class="col-6 descCol"><h4>Description</h4></div>
+            <div class="col-6 ">
+                <div class="image-container">
+
+                    <div class="image">
+                        <img id="myImg" src="/barrywhubler/images/MobileComic.png" class="img-fluid hover-shadow"
+                            alt="Cat: Neutral pose">
+                    </div>
+                    <div class="image">
+                        <img id="myImg" src="/barrywhubler/images/MC3.png" class="img-fluid hover-shadow"
+                            alt="Cat: Crouching">
+                    </div>
+                    <div class="image">
+                        <img id="myImg" src="/barrywhubler/images/MC2.png" class="img-fluid hover-shadow"
+                            alt="Cat: Leaping">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 descCol">
+                <h4>This is a Cat</h4>
+            </div>
+
+
         </div>
+
+        <div class="popup-image">
+            <div class="mx-auto my-auto d-block w-75 hover-shadow">
+                <span>&times;</span>
+                <img id="myImg" src="/html/newImage/CatLine.png" class="img-fluid">
+            </div>
+        </div>
+
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

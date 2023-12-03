@@ -9,10 +9,12 @@
     border: 3px solid blue
 }
 #topHeader{
+    
     background-color: rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 #topHeader a{
+
     color: orange;
     font-weight: 600;
     font-size: 0.89rem;
@@ -21,6 +23,7 @@
     color: rgb(255, 140, 0);
     font-weight: 600;
     text-shadow: 0px 0px 2px black;
+    padding-left: 10px;
 }
 #nextHeader{
     color: rgb(255, 140, 0);
@@ -28,6 +31,9 @@
     text-shadow: 0px 0px 2px black;
     background-color: rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+#nextHeader h2{
+    padding-left: 10px;
 }
 .descCol{
     color: rgb(255, 140, 0);
@@ -71,13 +77,23 @@
     font-weight: 700;
     text-shadow: 0px 0px 10px white;
       
+}
 
-  }
-  .navbar-nav a{
+/* #navigation-station{
+    background: linear-gradient(to right, rgb(0, 0, 20), rgb(0, 0, 10) )!important;
+    position: fixed !important;
+}
+.navbar{
+    background: linear-gradient(to right, rgb(0, 0, 20), rgb(0, 0, 70) )!important;
+    position: fixed !important;
+} */
+
+.navbar-nav a{
     color: orange;
        
-  }
-  .ytvideo{
+}
+
+.ytvideo{
     aspect-ratio: 16/9;
     width: 100%;
-  }
+}
