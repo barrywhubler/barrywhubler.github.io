@@ -35,6 +35,35 @@
 #nextHeader h2{
     padding-left: 10px;
 }
+
+.topHeader{
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.topHeader a{
+
+    color: orange;
+    font-weight: 600;
+    font-size: 0.89rem;
+}
+.topHeader h1{
+    color: rgb(255, 140, 0);
+    font-weight: 600;
+    text-shadow: 0px 0px 2px black;
+    padding-left: 10px;
+}
+.nextHeader{
+    color: rgb(255, 140, 0);
+    font-weight: 600;
+    text-shadow: 0px 0px 2px black;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.nextHeader h2{
+    padding-left: 10px;
+}
+
 .descCol{
     color: rgb(255, 140, 0);
     font-weight: 600;
@@ -78,6 +107,41 @@
     text-shadow: 0px 0px 10px white;
       
 }
+.port-ico{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+.port-ico img{
+    width: 80%;
+    height: auto;
+
+}
+
+.boxy
+{
+	list-style: none;
+	
+	text-align: center;
+	line-height: 30px;
+	margin: 0 50px;
+	background:rgba(88, 255, 111, 0.2);
+	border-radius: 10%;
+	color: #07df00;
+	transition: .5s;
+}
+.boxy:hover{
+	background: rgb(0, 0, 0);
+	box-shadow: 0 0 10px  rgba(255,225,255,1),
+		0 0 20px  rgba(255,225,255,0.4),
+		0 0 30px  rgba(255,225,255,0.4),
+		0 0 0 75px  rgba(255,225,255,0.1),
+		0 0 0 60px  rgba(255,225,255,0.1),
+		0 0 0 45px  rgba(255,225,255,0.1),
+		0 0 0 30px  rgba(255,225,255,0.1),
+		0 0 0 15px  rgba(255,225,255,0.1);
+}
 
 /* #navigation-station{
     background: linear-gradient(to right, rgb(0, 0, 20), rgb(0, 0, 10) )!important;
@@ -96,4 +160,9 @@
 .ytvideo{
     aspect-ratio: 16/9;
     width: 100%;
+}
+.linx{
+    color: orange;
+    text-align: center;
+    
 }
