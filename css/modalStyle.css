@@ -3,16 +3,18 @@
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
-  padding: 10px;
+  padding-top: 1%;
+  padding-left: 10px;
 }
 
 .container .image-container .image{
 
-  width: 350px;
+  width: 600px;
 
   box-shadow: 0 5px 15 px rgba(0,0,0,0.1);
   overflow: hidden;
   cursor: pointer;
+
 }
 
 .container .image-container .image:hover img{

@@ -29,6 +29,8 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 600;
     text-shadow: 0px 0px 2px black;
     padding-left: 10px;
+
+    font-size: calc(1.25em + 1vw);
 }
 #nextHeader{
     color: rgb(255, 140, 0);
@@ -64,17 +66,25 @@ h1, h2, h3, h4, h5, h6{
     text-shadow: 0px 0px 2px black;
     background-color: rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+
 }
 .nextHeader h2{
     padding-left: 10px;
+    font-size: calc(1em + 1vw);
 }
 
 .descCol{
     color: rgb(255, 140, 0);
     font-weight: 600;
     text-shadow: 0px 0px 2px black;
-    padding-top: 15px;
+    padding-top: 1%;
+    padding-right: 20px;
 
+
+}
+
+.descCol h4{
+        font-size: calc(0.75em + .5vw);
 }
 
 .container-fluid{
@@ -109,6 +119,7 @@ h1, h2, h3, h4, h5, h6{
 
 .bg-grad{
     background: linear-gradient(to right, rgb(0, 0, 50), rgb(0, 0, 185));
+    overflow-x: hidden;
 }
 .navbar-nav a.active {
     color: rgb(0, 0, 0) !important;
@@ -127,6 +138,12 @@ h1, h2, h3, h4, h5, h6{
     height: auto;
 
 }
+.port-ico h2{
+    font-size: calc(1em + 1vw);
+}
+.port-ico h4{
+    font-size: calc(0.75em + .5vw);
+}
 
 .boxy
 {
@@ -134,7 +151,7 @@ h1, h2, h3, h4, h5, h6{
 	
 	text-align: center;
 	line-height: 30px;
-	margin: 0 50px;
+	margin: 0 25px;
 	background:rgba(88, 255, 111, 0.2);
 	border-radius: 10%;
 	color: #07df00;
@@ -178,4 +195,15 @@ h1, h2, h3, h4, h5, h6{
 
 .index-container a{
     text-decoration: none;
+}
+.scalable-text-1 {
+    font-size: calc(0.5em + 2vw);
+}
+
+
+.scalable-text-2 {
+    font-size: calc(1em + 1vw);
+}
+.scalable-text-3 {
+    font-size: calc(0.75em + .5vw);
 }
