@@ -2,16 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>The Jewel</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="\css\myStyle.css">
+
 
 
 
@@ -51,10 +44,17 @@
                 </div>
             </div>
             <div class="col-6 descCol">
-                <h4>"The Jewel" exists as an immersive 360-degree or a  Virtual Reality video. This narrative unfolds within the mischievous world of pranksters whose antics take a perilous turn involving a wizard's cursed jewel. The dynamic fusion of Unity and Adobe Premiere serves as the creative canvas for this project, offering a technologically advanced and visually compelling experience. <br><br>
-                    I contributed to the scripting, and I also assumed the roles of The Old Man and Chuck. Additionally, my responsibilities extended to the meticulous editing required to achieve a polished and visually appealing final product.This project transcends the conventional boundaries of video production, offering viewers a more immersive experience.<br><br>
-                    A simplified version of the 360-degree version, accessible through the YouTube panel below. It invites viewers to step into the heart of the narrative.
-                    </h4>
+                <h4>"The Jewel" exists as an immersive 360-degree or a Virtual Reality video. This narrative unfolds
+                    within the mischievous world of pranksters whose antics take a perilous turn involving a wizard's
+                    cursed jewel. The dynamic fusion of Unity and Adobe Premiere serves as the creative canvas for this
+                    project, offering a technologically advanced and visually compelling experience. <br><br>
+                    I contributed to the scripting, and I also assumed the roles of The Old Man and Chuck. Additionally,
+                    my responsibilities extended to the meticulous editing required to achieve a polished and visually
+                    appealing final product.This project transcends the conventional boundaries of video production,
+                    offering viewers a more immersive experience.<br><br>
+                    A simplified version of the 360-degree version, accessible through the YouTube panel below. It
+                    invites viewers to step into the heart of the narrative.
+                </h4>
             </div>
 
 
@@ -69,9 +69,10 @@
 
 
 
-<div>
-    <h3 style="color: orange; text-align: center;">This is a 360 degree video, you can drag the video to change your view.</h3>
-</div>
+        <div>
+            <h3 style="color: orange; text-align: center;">This is a 360 degree video, you can drag the video to change
+                your view.</h3>
+        </div>
         <div class="embed-responsive col-12" style="padding-top: 10px;">
             <iframe class="ytvideo" col-12" src="https://www.youtube.com/embed/mTQHRzFV7o4?si=OjU9XPQO-ZHcrBy_"
                 title="YouTube video player" frameborder="0"
@@ -83,13 +84,20 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+        document.querySelector('.popup-image').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
 
 </body>
 

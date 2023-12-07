@@ -2,16 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>The Jewel</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="\css\myStyle.css">
+    <title>Grocery VR</title>
+
 
 
 
@@ -45,39 +38,46 @@
                             alt="Cat: Crouching">
                     </div>
                     <div class="image">
-                        <img id="myImg" src="/html/newImage/gxr2.png" class="img-fluid hover-shadow"
-                            alt="Cat: Leaping">
+                        <img id="myImg" src="/html/newImage/gxr2.png" class="img-fluid hover-shadow" alt="Cat: Leaping">
                     </div>
                     <div class="image">
-                        <img id="myImg" src="/html/newImage/gxr4.png" class="img-fluid hover-shadow"
-                            alt="Cat: Leaping">
+                        <img id="myImg" src="/html/newImage/gxr4.png" class="img-fluid hover-shadow" alt="Cat: Laping">
                     </div>
                 </div>
             </div>
             <div class="col-6 descCol">
-                <h4>The Grocery VR project was developed for the Boise School District to use a virtual enviroment instruct students how to navigate a virtual grocery store, retrieve items from a list, and complete transactions with both cash and card payments.  The application was intended to be used on Oculus (Meta) VR headsets. Our team inherited the project from a previous group and was provided with a store layout and a diverse set of assets for implementation. <br><br>
-                    
-One significant challenge with the original project revolved around inefficiency. The models had excessively high polygon counts, textures were measured in gigabytes, and transparency effects were overused, resulting in a notably low framerate that could compromise the Virtual Reality experience. To address this issue, I took on the responsibility of optimizing the project's geometry and textures.<br><br>
+                <h4>The Grocery VR project was developed for the Boise School District to use a virtual enviroment
+                    instruct students how to navigate a virtual grocery store, retrieve items from a list, and complete
+                    transactions with both cash and card payments. The application was intended to be used on Oculus
+                    (Meta) VR headsets. Our team inherited the project from a previous group and was provided with a
+                    store layout and a diverse set of assets for implementation. <br><br>
 
-I reconstructed more efficient versions of certain models, creating textures myself. Whenever a team member submitted a model, I meticulously ensured it didn't contain unnecessary geometry, and that textures were appropriately sized. If any element proved burdensome on the hardware, I either streamlined it personally or collaborated with the contributing team member to enhance its efficiency.<br><br>
+                    One significant challenge with the original project revolved around inefficiency. The models had
+                    excessively high polygon counts, textures were measured in gigabytes, and transparency effects were
+                    overused, resulting in a notably low framerate that could compromise the Virtual Reality experience.
+                    To address this issue, I took on the responsibility of optimizing the project's geometry and
+                    textures.<br><br>
 
-Implementing practical solutions, I introduced a "shelf stocker" class that facilitated the assignment of products to shelves, allowing users to specify quantity and spacing without the need for assigning posisions for every item in the store. This not only streamlined the process but also improved efficiency by deactivating collision when users were out of reach of the shelf.<br><br>
+                    I reconstructed more efficient versions of certain models, creating textures myself. Whenever a team
+                    member submitted a model, I meticulously ensured it didn't contain unnecessary geometry, and that
+                    textures were appropriately sized. If any element proved burdensome on the hardware, I either
+                    streamlined it personally or collaborated with the contributing team member to enhance its
+                    efficiency.<br><br>
 
-I also designed interactive features such as doors for refrigerators, a fruit spawner that intuitively generated fruit in users' hands from a pile, and addressed various bugs throughout the project. These enhancements aimed to optimize performance and create a smoother, more enjoyable Virtual Reality experience.
+                    Implementing practical solutions, I introduced a "shelf stocker" class that facilitated the
+                    assignment of products to shelves, allowing users to specify quantity and spacing without the need
+                    for assigning posisions for every item in the store. This not only streamlined the process but also
+                    improved efficiency by deactivating collision when users were out of reach of the shelf.<br><br>
+
+                    I also designed interactive features such as doors for refrigerators, a fruit spawner that
+                    intuitively generated fruit in users' hands from a pile, and addressed various bugs throughout the
+                    project. These enhancements aimed to optimize performance and create a smoother, more enjoyable
+                    Virtual Reality experience.
                 </h4>
             </div>
 
 
         </div>
-
-        <div class="popup-image">
-            <div class="mx-auto my-auto d-block w-75 hover-shadow">
-                <span>&times;</span>
-                <img id="myImg" src="/html/newImage/CatLine.png" class="img-fluid">
-            </div>
-        </div>
-
-
 
         <div class="embed-responsive col-12" style="padding-top: 10px;">
             <iframe class="ytvideo" col-12" src="https://www.youtube.com/embed/sIUIX_KTBlQ?si=7A7t-9zDT4BOEQSF"
@@ -87,15 +87,32 @@ I also designed interactive features such as doors for refrigerators, a fruit sp
             </iframe>
 
 
+            <div class="popup-image">
+                <div class="mx-auto my-auto d-block w-75 hover-shadow">
+                    <span>&times;</span>
+                    <img id="myImg" src="/html/newImage/CatLine.png" class="img-fluid">
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 
-
-
-
-
-
-
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+        document.querySelector('.popup-image').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
 
 </body>
 

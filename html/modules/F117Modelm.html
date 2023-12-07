@@ -2,17 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>F-117 Nighthawk</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="\css\myStyle.css">
-    <link rel="stylesheet" href="\css\modalStyle.css">
+
 
 
 
@@ -39,7 +30,7 @@
 
                     <div class="image">
                         <img id="myImg" src="/barrywhubler/images/F117a.png" class="img-fluid hover-shadow"
-                            alt="Cat: Neutral pose" >
+                            alt="Cat: Neutral pose">
                     </div>
                     <div class="image">
                         <img id="myImg" src="/barrywhubler/images/F117b.png" class="img-fluid hover-shadow"
@@ -52,9 +43,13 @@
                 </div>
             </div>
             <div class="col-6 descCol">
-                <h4>This F-117 Nighthawk stealth bomber was made in Blender.  It was designed for a project that integrated machine learning algorithms for autonomous flight and precision bombing of designated targets. The primary goal was to implement cutting-edge technology that enabled the jet to navigate independently and execute targeted bombing runs.  <br><br>
+                <h4>This F-117 Nighthawk stealth bomber was made in Blender. It was designed for a project that
+                    integrated machine learning algorithms for autonomous flight and precision bombing of designated
+                    targets. The primary goal was to implement cutting-edge technology that enabled the jet to navigate
+                    independently and execute targeted bombing runs. <br><br>
 
-                    The model has articulated flaps on both the wings and tail, enhancing its visual realism and contributing to its interactive nature. 
+                    The model has articulated flaps on both the wings and tail, enhancing its visual realism and
+                    contributing to its interactive nature.
                 </h4>
             </div>
 
@@ -69,12 +64,25 @@
         </div>
 
     </div>
-    </div>
 
 
-    
 
 
+
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+        document.querySelector('.popup-image').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
 
 
 </body>

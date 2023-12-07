@@ -2,16 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Quack Attack</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="\css\myStyle.css">
+
 
 
 </head>
@@ -50,7 +43,10 @@
                 </div>
             </div>
             <div class="col-6 descCol">
-                <h4>Quack Attack is a gallery shooter, created using Unreal Engine.  The Game presents a straightforward gameplay experience. The players aim to shoot as many ducks as possible within a set time limit to achieve the highest score. The game's simplicity contributes to its accessibility, providing players with an enjoyable and intuitive challenge. </h4>
+                <h4>Quack Attack is a gallery shooter, created using Unreal Engine. The Game presents a straightforward
+                    gameplay experience. The players aim to shoot as many ducks as possible within a set time limit to
+                    achieve the highest score. The game's simplicity contributes to its accessibility, providing players
+                    with an enjoyable and intuitive challenge. </h4>
             </div>
 
 
@@ -64,7 +60,7 @@
         </div>
 
         <div class="embed-responsive col-12" style="padding-top: 10px;">
-            <iframe class="ytvideo"  src="https://www.youtube.com/embed/bZdDfKoE2f0?si=fls-ORoGW-ODb_24"
+            <iframe class="ytvideo" src="https://www.youtube.com/embed/bZdDfKoE2f0?si=fls-ORoGW-ODb_24"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
@@ -76,7 +72,20 @@
 
     </div>
 
-
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+        document.querySelector('.popup-image').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
 
 </body>
 

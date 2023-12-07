@@ -12,33 +12,22 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="\css\myStyle.css">
+    <link rel="stylesheet" href="\css\modalStyle.css">
 
-<script>
-    document.querySelectorAll(".nav-link").forEach((link) => {
-    if (link.href === window.location.href) {
-        link.classList.add("active");
-        link.setAttribute("aria-current", "page");
-    }
-});
-</script>
+    <script>
+        document.querySelectorAll(".nav-link").forEach((link) => {
+            if (link.href === window.location.href) {
+                link.classList.add("active");
+                link.setAttribute("aria-current", "page");
+            }
+        });
+    </script>
+
 </head>
 
 
 
-<!--<header>
 
-        <div class="p-1" id="topHeader">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-xs-12 text-end">
-                        <a class="p-1" href=""><i class="fas fa-phone"></i>A</a>
-                        <a class="p-1" href=""><i class="fas fa-envelope"></i>Email</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>-->
 <header>
     <div class="container-fluid">
         <nav class="navbar navbar-dark navbar-expand-md"

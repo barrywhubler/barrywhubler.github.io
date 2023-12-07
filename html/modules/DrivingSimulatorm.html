@@ -2,16 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Driving Simulator</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="\css\myStyle.css">
+
+
 
 
 </head>
@@ -47,11 +40,23 @@
                 </div>
             </div>
             <div class="col-6 descCol">
-                <h4>This project was a group assignment in an engineering course, where our collective efforts were dedicated to a rehabilitation hospital. Our task was to develop a simulation specifically tailored to assist individuals in the process of relearning how to drive after losing the ability to do so after accidents or strokes. The significance of this endeavor was not lost on us, as it resonated with the very essence of engineering, applying our skills to address real-world challenges and make a positive impact. <br><br>
-                    Adhering to the client's specifications, the application interface was a steering wheel controller with pedals for the purpose of interacting with a simulated car within a digital environment. The application was programmed to assess various driving parameters, including lane adherence, speed compliance, and complete stops. A comprehensive driver score would be generated at the conclusion of each drive.<br><br>
-                    Knowing that our work could play a role in the recovery journey of those overcoming significant health challenges added meaning to our project. The end result could potentially contribute to enhancing the quality of life for individuals on their path to rehabilitation and that made every aspect of our engineering efforts deeply rewarding.
-                    
-                    </h4>
+                <h4>This project was a group assignment in an engineering course, where our collective efforts were
+                    dedicated to a rehabilitation hospital. Our task was to develop a simulation specifically tailored
+                    to assist individuals in the process of relearning how to drive after losing the ability to do so
+                    after accidents or strokes. The significance of this endeavor was not lost on us, as it resonated
+                    with the very essence of engineering, applying our skills to address real-world challenges and make
+                    a positive impact. <br><br>
+                    Adhering to the client's specifications, the application interface was a steering wheel controller
+                    with pedals for the purpose of interacting with a simulated car within a digital environment. The
+                    application was programmed to assess various driving parameters, including lane adherence, speed
+                    compliance, and complete stops. A comprehensive driver score would be generated at the conclusion of
+                    each drive.<br><br>
+                    Knowing that our work could play a role in the recovery journey of those overcoming significant
+                    health challenges added meaning to our project. The end result could potentially contribute to
+                    enhancing the quality of life for individuals on their path to rehabilitation and that made every
+                    aspect of our engineering efforts deeply rewarding.
+
+                </h4>
             </div>
 
 
@@ -75,7 +80,20 @@
         </div>
     </div>
 
-
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+        document.querySelector('.popup-image').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
 
 </body>
 
