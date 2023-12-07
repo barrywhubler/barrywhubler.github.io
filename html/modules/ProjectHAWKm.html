@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <div class="container" style="text-align: justify;">
+    <div class="container container-fluid" style="text-align: justify;">
 
         <div class="row" style="padding-top: 10px;">
             <div class="col-6 embed-responsive embed-responsive-16by9">
@@ -55,27 +55,14 @@
 
     <div class="embed-responsive col-12" style="padding-top: 10px;">
                    
-        <iframe name= CRytvA id="ytv" class="ytvideo" col-12" src="https://www.youtube.com/embed/2PqKjy8d__k?si=EHNwb_0vMXicTk4i"
+        <iframe class="ytvideo" col-12" src="https://www.youtube.com/embed/2PqKjy8d__k?si=EHNwb_0vMXicTk4i"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </div>
     </div>
 
-    <script>
-        document.querySelectorAll('.image-container img').forEach(image =>{
-            image.onclick = () =>{
-                document.querySelector('.popup-image').style.display ='block';
-                document.querySelector('.popup-image img').src = image.getAttribute('src');
-            }
-        });
-        document.querySelector('.popup-image span').onclick = () =>{
-            document.querySelector('.popup-image').style.display = 'none';
-        }
-        document.querySelector('.popup-image').onclick = () =>{
-            document.querySelector('.popup-image').style.display = 'none';
-        }
-    </script>
+
 
 </body>
 
