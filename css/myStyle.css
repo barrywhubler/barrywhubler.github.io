@@ -207,3 +207,13 @@ h1, h2, h3, h4, h5, h6{
 .scalable-text-3 {
     font-size: calc(0.75em + .5vw);
 }
+
+html,body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
