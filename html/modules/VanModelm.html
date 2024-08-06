@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <title>Cat</title>
+
+
+
+
+</head>
+
+
+<body class="bg-grad">
+
+    <div class="container-fluid nextHeader">
+        <div class="row">
+            <div class="col-6">
+                <h2>Vandaryn</h2>
+            </div>
+            <div class="col-6">
+                <h2>Blender</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container container-fluid" style="text-align: justify;">
+
+        <div class="row">
+            <div class="col-6 ">
+                <div class="image-container">
+
+                    <div class="image">
+                        <img id="myImg" src="/html/newImage/VAN1.png" class="img-fluid hover-shadow"
+                            alt="Cat: Neutral pose">
+                    </div>
+                    <div class="image">
+                        <img id="myImg" src="/html/newImage/VAN2.png" class="img-fluid hover-shadow"
+                            alt="Cat: Crouching">
+                    </div>
+                    <div class="image">
+                        <img id="myImg" src="/html/newImage/VAN3.png" class="img-fluid hover-shadow"
+                            alt="Cat: Leaping">
+                    </div>
+                    <div class="image">
+                        <img id="myImg" src="/html/newImage/VAN4.png" class="img-fluid hover-shadow"
+                            alt="Cat: Leaping">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 descCol">
+                <h4>This is Vandaryn a cell-shaded model brought to life in Blender of a Ha;f Dragon Woman. Through the application of cell
+                    shading, She exhibits a visual style reminiscent of hand-drawn animation, giving her a sense of
+                    character and charm.</h4>
+            </div>
+
+
+        </div>
+
+        <div class="popup-image">
+            <div class="mx-auto my-auto d-block w-75 hover-shadow">
+                <span>&times;</span>
+                <img id="myImg" src="/html/newImage/CatLine.png" class="img-fluid">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+        document.querySelector('.popup-image').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
